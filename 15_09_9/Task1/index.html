@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Regular Expressions</title>
+  </head>
+  <body>
+    <form id="order-form">
+      <div class="input-name-surname">
+        <strong><label for="">Введите имя и фамилию:</label></strong>
+        <input id="name" name="name" />
+        <p id="check-name">Первая буква имени и фамилии должны быть большими</p>
+      </div>
+      <div class="input-phone">
+        <strong><label for="">Введите ваш номер телефона:</label></strong>
+        <input id="phone" name="phone" />
+        <p id="check-phone">Формат номера телефона: +380671234567</p>
+      </div>
+      <div class="input-email">
+        <strong><label for="">Введите ваш email:</label></strong>
+        <input id="email" name="email" />
+        <p id="check-email">Формат email: ab.cd@gmail.com</p>
+      </div>
+      <div class="input-card">
+        <strong><label for="">Введите ваш номер карты:</label></strong>
+        <input id="card" name="card" />
+        <p id="check-card">Формат карты: 16 цифр</p>
+      </div>
+      <button type="submit" form="order-form">Отправить данные</button>
+    </form>
+    <script src="main.js"></script>
+  </body>
+</html>
